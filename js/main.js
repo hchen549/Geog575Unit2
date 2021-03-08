@@ -235,7 +235,7 @@ function createSequenceControls(attributes) {
     var index = $(this).val();
     console.log(index);
 
-    year = currValue + index;
+    year = parseInt(index) + 2010;
     $("#temporal-legend-text").text("Population in Year " + year);
 
     updatePropSymbols(attributes[index]);

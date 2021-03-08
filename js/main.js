@@ -130,7 +130,7 @@ function createLegend(map, attributes) {
           textY +
           '">' +
           Math.round(dataStats[circles[i]] * 100) / 100 +
-          " " +
+          "" +
           "</text>";
       }
 

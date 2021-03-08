@@ -1,6 +1,6 @@
 #mapid {
   height: 400px;
-  width: 80%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -31,4 +31,46 @@
 
 #reverse {
   float: left;
+}
+
+.sequence-control-container {
+  width: 350px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  line-height: 45px;
+  text-align: center;
+  border: solid gray 1px;
+}
+
+.temporal-legend-text {
+  text-align: center;
+}
+
+#data-source {
+  padding: 10px;
+  text-align: left;
+}
+
+.legend-control-container {
+  width: 200px;
+  height: 140px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  line-height: 45px;
+  text-align: center;
+  border: solid gray 1px;
+}
+
+.range-slider {
+  width: 250px;
+}
+
+.step {
+  width: 40px;
+}
+
+.step img {
+  width: 100%;
+  height: auto;
 }
